@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#Set git user details
+git config --global user.name "Hydruid"
+git config --global user.email "trey.hunsucker@gmail.com"
+
 #Pull updates from github
 git pull
 
