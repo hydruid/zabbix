@@ -7,7 +7,7 @@ git pull
 git add .
 
 #Create commit note with today's date
-git commit -m "date" .
+git commit -m "`date`" .
 
 #Push updates to github
 git push
