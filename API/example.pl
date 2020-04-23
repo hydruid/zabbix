@@ -4,7 +4,6 @@ use warnings;
 use lib "../lib/";
 use Zabbix::Tiny;
 use IO::Socket::SSL;
-
 use Data::Dumper;
 
 my $url      = $ARGV[0];
