@@ -30,8 +30,7 @@ my $hosts = $zabbix->do(
 #Print output
 print "JSON request:\n" . $zabbix->json_request . "\n\n";	# Print the json data sent in the last request.
 print "JSON response:\n" . $zabbix->json_response . "\n\n";	# Print the json data received in the last response.
-
-#Other Print output options
+##Other Print output options
 #print "Auth is: ". $zabbix->auth . "\n";
 #print "\$zabbix->last_response:\n";
 #print Dumper $zabbix->last_response;
